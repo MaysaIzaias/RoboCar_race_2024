@@ -12,3 +12,7 @@
 # YOLOv8
 > **YOLO: DETECÇÃO DE OBJETOS COM DEEP LEARNING**
 > - <https://www.aprendizartificial.com/yolo-deteccao-de-objetos-com-deep-learning/#:~:text=YOLO%20(You%20Only%20Look%20Once,detectar%20objetos%20em%20tempo%20real.>
+
+# PyTorch
+> **Saving and Loading Models**
+> - <https://pytorch.org/tutorials/beginner/saving_loading_models.html>
