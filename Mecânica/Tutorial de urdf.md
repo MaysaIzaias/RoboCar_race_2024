@@ -1,9 +1,4 @@
-para configurar teclado na versão PT-BR precisamos:
-escreva no terminal: localectl status
-Observe como está seu VC Keymap, caso esteja aparecendo n/a isso significa que seu teclado realmente não está configurado para nenhum modelo
-Após isso escreva no terminal:
-sudo dpkg-reconfigure keyboard-configuration
-URDF - Unified Robotics Description File
+
 Aqui será apresentado um breve resumo sobre URDF e um tutorial de como escrever um arquivo URDF. Primeiramente, URDF significa Unified Robot Description Format (Formato Unificado de Descrição de Robôs). É um formato XML (extensible markup language, ou linguagem de marcação extensível) usado no ROS (Robot Operating System) para descrever a estrutura física e os componentes de um robô. Um arquivo URDF define as várias partes de um robô (chamadas de links) e como elas se conectam (joints), além de propriedades físicas como tamanho, peso e aparência.
 
     Lembrete: para visualizar seu robô, é necessário que o ROS2 esteja instalado corretamente. Este tutorial tem como referência a versão ROS2 Humble Hawksbill.
@@ -87,6 +82,13 @@ planar joint: permite movimento livre em um plano 2D.
 <?xml version="1.0"?>
 <robot name="multipleshapes">
 </robot>
+
+para configurar teclado na versão PT-BR precisamos:
+escreva no terminal: localectl status
+Observe como está seu VC Keymap, caso esteja aparecendo n/a isso significa que seu teclado realmente não está configurado para nenhum modelo
+Após isso escreva no terminal:
+sudo dpkg-reconfigure keyboard-configuration
+URDF - Unified Robotics Description File
 
 ​
 Sites úteis
